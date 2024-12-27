@@ -114,6 +114,7 @@ function handleNextbutton(){
 }
 nextbtn.addEventListener("click", ()=>{
     if(currentQuestionIndex < question.length){
+        
         handleNextbutton();
     }else{
         startQuiz();
